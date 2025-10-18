@@ -25,16 +25,16 @@ const Login = () => {
 
  return (
   <section className="bg-gray-50 dark:bg-gray-200 h-screen flex">
-    {/* Bagian kiri gambar */}
+
     <div className="w-full h-full hidden lg:flex items-center justify-center">
       <img
-        src="/img.png" // ganti sesuai gambar yang kamu taruh di public
+        src="/img.png" 
         alt="Login Illustration"
         className="h-full w-full object-cover"
       />
     </div>
 
-    {/* Bagian kanan form */}
+
     <div className="w-full h-full flex items-center justify-center">
       <div className="bg-white rounded-lg shadow dark:border w-full max-w-md p-6 sm:p-8 dark:bg-gray-300 dark:border-gray-500">
         <form onSubmit={Auth} className="space-y-10" 
